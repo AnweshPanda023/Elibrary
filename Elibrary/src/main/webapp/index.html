@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Library Management</title>
+ <link rel = "icon" href = 
+"https://lh3.googleusercontent.com/drive-viewer/AJc5JmTNHBF75sxbuGFJqoAD9Cw59r8V_lAPOBuHnxnxjpEIIfLKxJZgy81qkBUx4e84SV3-LJSu8wM=w1920-h972"        type = "image/x-icon">
+<link rel="stylesheet" href="bootstrap.min.css"/>
+</head>
+<body>
+ 
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+<img class="logo-img" src="images/logoo.png" width="40" height="40" ALT="align box" ALIGN=CENTER>
+ <style>
+ .logo-img{
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+</style>
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">eLibrary </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#">Admin</a></li>
+        <li><a href="#">Librarian</a></li>
+         <li><a href="#">Contact</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Credit</a></li>
+          
+       </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container-fluid" align="center">
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<div class="row" style= margin-left:500px  >
+  <div class="col-md-6">
+  <h3 style="color:#65FBC0 ;">Login</h3>
+  <form action="AdminLogin" method="post" style="width:300px">
+  <div class="form-group">
+    <label for="email1" style="color:#CED3C5 ;">Email address</label>
+    <input type="email" class="form-control" name="email" id="email1" placeholder="Email"/>
+  </div>
+  <div class="form-group">
+    <label for="password1" style="color:#CED3C5 ;">Password</label>
+    <input type="password" class="form-control" name="password" id="password1" placeholder="Password"/>
+  </div>  
+  <button type="submit" class="btn btn-primary" >Login</button>
+</form>
+  
+</div>
+<style>
+body {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/CUTMLibrary.jpg');
+  background-position:center top;
+    height:800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+</style>
+
+
+
+
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+</body>
+</html>

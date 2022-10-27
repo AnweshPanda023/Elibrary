@@ -1,0 +1,107 @@
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;" >
+  <div class="container"  >
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">eLibrary</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="AddBookForm">Add Book</a></li>
+        <li><a href="ViewBook">View Book</a></li>
+        <li><a href="IssueBookForm">Issue Book</a></li>
+        <li><a href="ViewIssuedBook">View Issued Book</a></li>
+        <li><a href="ReturnBookForm">Return Book</a></li>
+        <li><a href="LogoutLibrarian">Logout</a></li>
+       </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #2986cc;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: #2986cc;
+  
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+   <a href="AddLibrarian" class="list-group-item list-group-item-action">Home</a>
+  <a href="AddBookForm" class="list-group-item list-group-item-action">Add Book</a>
+  <a href="ViewBook" class="list-group-item list-group-item-action">View Book</a>
+    <a href="IssueBookForm" class="list-group-item list-group-item-action">Issue Book</a>
+    <a href="ViewIssuedBook" class="list-group-item list-group-item-action"> View Issued Book</a>
+    <a href="ReturnBookForm" class="list-group-item list-group-item-action">Return Book</a>
+    <a href="LogoutLibrarian" class="list-group-item list-group-item-action">Logout</a>
+  
+</div>
+
+<h2>LIBRARIAN PAGE</h2>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+   
+</body>
