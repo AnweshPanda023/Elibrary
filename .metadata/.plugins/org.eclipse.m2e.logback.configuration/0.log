@@ -35,3 +35,22 @@ java.io.FileNotFoundException: C:\Users\91637\.cache\tooling\gradle\versions.jso
 2022-10-31 09:53:58,045 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1a4132b2{/wse,null,AVAILABLE}
 2022-10-31 09:53:58,065 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@5b1378cf{HTTP/1.1, (http/1.1)}{0.0.0.0:64311}
 2022-10-31 09:53:58,075 [main] INFO  org.eclipse.jetty.server.Server - Started Server@78c7d992{STARTING}[10.0.9,sto=0] @58124ms
+2022-10-31 10:46:54,721 [Framework stop - Equinox Container: deeda589-eb08-4662-ad00-75ca02389b1f] INFO  org.eclipse.jetty.server.Server - Stopped Server@78c7d992{STOPPING}[10.0.9,sto=0]
+2022-10-31 10:46:54,771 [Framework stop - Equinox Container: deeda589-eb08-4662-ad00-75ca02389b1f] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@5b1378cf{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+2022-10-31 10:46:54,963 [Framework stop - Equinox Container: deeda589-eb08-4662-ad00-75ca02389b1f] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@1a4132b2{/wse,null,STOPPED}
+2022-10-31 10:47:27,009 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-10-31 10:47:27,737 [Worker-6: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\91637\.cache\tooling\gradle\versions.json (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149)
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
