@@ -146,3 +146,107 @@ java.io.FileNotFoundException: C:\Users\91637\.cache\tooling\gradle\versions.jso
 
 !ENTRY org.eclipse.ui 2 2 2022-10-31 10:01:36.181
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.core.resources 2 2 2022-10-31 10:06:20.649
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2022-10-31 10:06:20.649
+!MESSAGE The project description file (.project) for 'Servers' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:01.148
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:01.148
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4d2f5a6b[org.springframework.tooling.boot.ls:1.36.0.202206171137(id=567)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:01.151
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:01.264
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:07.311
+!MESSAGE Boot LS startup time from start to initialized: 6156ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:07.398
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ilZDpznHisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:07.400
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:07.402
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:07.403
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:07.403
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:07.404
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ilZDpznH => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:07.406
+!MESSAGE classpath=34 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:07.408
+!MESSAGE buffering callback sts4.classpath.ilZDpznH Elibrary false 34
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:07.410
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:07.410
+!MESSAGE classpath=36 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:07.412
+!MESSAGE buffering callback sts4.classpath.ilZDpznH LoginPage false 36
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:07.413
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:07.414
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:07.416
+!MESSAGE buffering callback sts4.classpath.ilZDpznH STDemo false 35
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:07.416
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:07.417
+!MESSAGE classpath=34 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:07.419
+!MESSAGE buffering callback sts4.classpath.ilZDpznH demo2 false 34
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:07.419
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:07.420
+!MESSAGE classpath=34 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:07.421
+!MESSAGE buffering callback sts4.classpath.ilZDpznH servlet1 false 34
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:07.422
+!MESSAGE executing callback sts4.classpath.ilZDpznH 5 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:35:07.783
+!MESSAGE executing callback sts4.classpath.ilZDpznH SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:44:00.273
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:44:00.274
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:44:00.276
+!MESSAGE buffering callback sts4.classpath.ilZDpznH Elibrary false 35
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:44:00.277
+!MESSAGE executing callback sts4.classpath.ilZDpznH 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-31 10:44:00.303
+!MESSAGE executing callback sts4.classpath.ilZDpznH SUCCESS [done]
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2022-10-31 10:46:22.258
+!MESSAGE The server cannot be started because one or more of the ports are invalid. Open the server editor and correct the invalid ports.
